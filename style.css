@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;1,300&display=swap');
 
 html {
     box-sizing: border-box;
@@ -118,3 +118,124 @@ h2{
 }
 
 /* End Hero Section */
+
+/* Begin info panel */
+.info-panel{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+    font-weight: 600;
+    color:#1F2937
+}
+
+.info-boxes{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+.box-container{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.box{
+    height:200px;
+    width: 200px;
+    border: 5px solid #3883f6;
+    border-radius: 10px;
+}
+/* End info panel */
+
+/* Begin qoute panel */
+.qoute-panel{
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #E5E7EB;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.qoute-container{
+    display: flex;
+    width:1000px;
+    flex-flow: column nowrap;
+}
+
+.qoute{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-sign{
+    font-size: 20px;
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+/* End qoute section */
+
+/* Begin call to action */
+.cta-panel{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #3883f6;
+    width: 1000px;
+    height: 120px;
+    padding: 10px;
+    border-radius:10px;
+}
+
+.cta-button{
+    border:2px solid #F9FAF8;
+    border-radius: 4px;
+    outline: none;
+    padding:5px 20px;
+    background-color: transparent;
+    color: #F9FAF8;
+    transition: .3s;
+}
+
+.cta-button:hover{
+    background-color: #F9FAF8;
+    color: #3883f6;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.cta-text p:first-child{
+    font-size: 22px;
+    font-weight: 900;
+}
+
+/* End call to action */
+
+/* Footer */
+footer{
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
