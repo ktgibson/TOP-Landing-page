@@ -35,6 +35,12 @@ html {
 
   /* Hero Section */
 
+#container{
+    margin: auto;
+    min-width: 1200px;
+    /* fixed my div issue! */
+}
+
 .hero{
     background-color: #1F2937;
     color: #F9FAF8;
@@ -48,8 +54,7 @@ html {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 80px;
-    margin-top: 10px;
+    margin:10px 0 80px 0;
     width: 1000px;
 }
 
@@ -59,8 +64,8 @@ html {
 }
 
 .logo{
-    font-size: 24px;
     color:#F9FAF8;
+    font-size: 24px;
     font-weight: bolder;
 }
 
@@ -153,7 +158,7 @@ h2{
 .box{
     height:200px;
     width: 200px;
-    border: 5px solid #3883f6;
+    border: 3px solid #3883f6;
     border-radius: 10px;
 }
 /* End info panel */
@@ -166,7 +171,6 @@ h2{
     height: 400px;
     justify-content: center;
     align-items: center;
-    width: auto;
 }
 
 .qoute-container{
@@ -235,7 +239,11 @@ h2{
 /* End call to action */
 
 /* Footer */
-footer{
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #F9FAF8;
     background-color: #1F2937;
+    height: 80px;
 }
